@@ -1,0 +1,30 @@
+{
+  "name": "school-result-saas",
+  "version": "1.0.0",
+  "description": "A production-ready multi-tenant Exam & Result Management SaaS WordPress plugin",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "saas",
+    "school",
+    "results",
+    "exams"
+  ],
+  "author": "School Result SaaS Team",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-postcss": "^9.0.1",
+    "autoprefixer": "^10.4.0",
+    "tailwindcss": "^3.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-terser": "^2.1.0"
+  }
+}
